@@ -27,3 +27,19 @@ body{
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 100px 10px rgb(85, 8, 81);
 }
+
+.c-form{
+    background-color: aliceblue;
+    height: 300px;
+    text-align: center;
+}
+.c-img{
+    background-image: url(fundo.webp);
+    height: 300px;
+}
+
+h2{
+    align-self: flex-start;
+    margin: 15px;
+    font-size: 30px;
+}
