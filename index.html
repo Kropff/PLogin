@@ -1,31 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="Caixa-principal">
-    <div class="Caixa-img">
-      <h1>Welcome Page</h1>
-      <h4>Sign in to your acount</h4>
-      <a href="">www.yoursite.com</a>
-    </div>
-    <div class="Caixa-login">
-      <div class="content">
-        <h1>Login Your Account</h1>
-        <form action="">
-          <label for="email"></label>
-          <input type="text" id="email" name="email"> 
-          <label for="password"></label>
-          <input type="password" id="password" name="password">
-          <input type="checkbox" name="remember" id="remenber"> Remember
-          <a href="">Forgot password?</a>
-          <button class="btn" type="submit">Submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
+    <div>
+        <div class="c-principal">
+            <div class="c-img"></div>
+            <div class="c-form">
+
+                <h2>Login</h2>
+
+                <form action="/login" method="post">
+                    <div>
+                        <input type="text" id="nome" name="nome" value="Username"><br><br>
+                    </div>
+
+                    <div>
+                        <input type="password" id="senha" name="senha" value="Password"><br><br>
+                    </div>
+
+                    <div class="extraLogin">
+                        <div>
+                            <input type="checkbox" id="lembrar" name="lembrar" value="sim">
+                            <label for="lembrar">Lembrar-me</label>
+                        </div>
+
+                        <div>
+                            <a href="/esqueci-a-senha">Esqueceu a senha?</a>
+                        </div><br>
+                    </div>
+                    
+
+                    <div>
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+
+                <p><a href="/criar-conta">Criar conta</a></p>
+
+
+            </div>
+        </div>
 </body>
+
 </html>
