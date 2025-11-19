@@ -11,7 +11,7 @@ a{
 
 body{
     background-image: url(fundo.webp);
-    background-color: rgb(129, 33, 184);
+    background-color: rgb(184, 21, 102);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -42,6 +42,7 @@ h2{
     align-self: flex-start;
     margin: 15px;
     font-size: 30px;
+    color: rgb(24, 0, 68);
 }
 
 button{
@@ -81,4 +82,16 @@ input{
   background-repeat: no-repeat;
   background-position: 10px;
   background-size: 1.3em;
-}   
+}  
+
+a{
+  color: rgb(223, 72, 135);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+label{
+  font-size: 15px;
+  color: rgb(24, 0, 68);
+}
+
