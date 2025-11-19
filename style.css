@@ -53,6 +53,7 @@ button{
     color: aliceblue;
     background-color: rgb(128, 41, 163);
     margin: 10px;
+    letter-spacing: 3px;
 }
 
 input{
@@ -85,13 +86,20 @@ input{
 }  
 
 a{
-  color: rgb(223, 72, 135);
+  color: rgb(128, 41, 163);
   font-weight: bold;
   font-size: 14px;
 }
 
+a::after{
+  color: rgb(128, 41, 163);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
 label{
   font-size: 15px;
-  color: rgb(24, 0, 68);
+  color: rgb(100, 88, 95);
 }
 
