@@ -43,3 +43,42 @@ h2{
     margin: 15px;
     font-size: 30px;
 }
+
+button{
+    border: 0px;
+    margin: 0px;
+    padding: 5px 130px;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: rgb(128, 41, 163);
+    margin: 10px;
+}
+
+input{
+    border: 1px solid rgb(235, 172, 219);
+    border-radius: 50px;
+    margin: 0px;
+    padding: 10px 55px;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: rgb(255, 170, 191);
+    margin: 0px;
+}
+
+.extraLogin{
+    display: inline;
+}
+
+#senha {
+  background-image: url("senha.png");
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 1.3em;
+}   
+
+#nome {
+  background-image: url("usuario2.png");
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 1.3em;
+}   
